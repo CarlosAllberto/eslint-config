@@ -1,35 +1,19 @@
 {
-  "name": "@carlosallberto/eslint-config",
-  "version": "0.1",
-  "private": false,
+  "name": "eslint-config-carlosallberto",
+  "version": "1.0.0",
   "description": "...",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
-    "url": "carlosallberto/eslint-config"
+    "type": "git",
+    "url": "git+https://github.com/carlosallberto/eslint-config.git"
   },
-  "peerDependencies": {
-    "eslint": "^8.0.0",
-    "typescript": ">=4"
+  "author": "CarlosAllberto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlosallberto/eslint-config/issues"
   },
-  "peerDependenciesMeta": {
-    "typescript": {
-      "optional": true
-    }
-  },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.25.0",
-    "@typescript-eslint/parser": "^5.25.0",
-    "eslint": "^8.0.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-n": "^15.2.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.30.0",
-    "eslint-plugin-react-hooks": "^4.5.0",
-    "prettier": "^3.0.0",
-    "eslint-plugin-prettier": "5.0.0-alpha.2"
-  }
+  "homepage": "https://github.com/carlosallberto/eslint-config#readme"
 }
