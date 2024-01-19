@@ -14,13 +14,13 @@
 
 Install dependencies:
 ```
-npm i -D eslint @carlosallberto/eslint-config
+npm i -D eslint eslint-config-carlosallberto
 ```
 Inside `.eslintrc.json`
 ```
 {
   "extends": [
-    "@carlosallberto/eslint-config/next", 
+    "eslint-config-carlosallberto/next", 
     "next/core-web-vitals"
   ]
 }
@@ -30,12 +30,12 @@ Inside `.eslintrc.json`
 
 Install dependencies:
 ```
-npm i -D eslint @carlosallberto/eslint-config
+npm i -D eslint eslint-config-carlosallberto
 ```
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@carlosallberto/eslint-config/react"
+  "extends": "eslint-config-carlosallberto/react"
 }
 ```
 
@@ -43,11 +43,11 @@ Inside `.eslintrc.json`
 
 Install dependencies:
 ```
-npm i -D eslint @carlosallberto/eslint-config
+npm i -D eslint eslint-config-carlosallberto
 ```
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@carlosallberto/eslint-config/node"
+  "extends": "eslint-config-carlosallberto/node"
 }
 ```
