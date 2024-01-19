@@ -1,0 +1,35 @@
+{
+  "name": "@carlosallberto/eslint-config",
+  "version": "0.1",
+  "private": false,
+  "description": "...",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "url": "carlosallberto/eslint-config"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": ">=4"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "prettier": "^3.0.0",
+    "eslint-plugin-prettier": "5.0.0-alpha.2"
+  }
+}
