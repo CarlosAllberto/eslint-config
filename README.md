@@ -1,4 +1,4 @@
-# ESLint config
+# Configuração ESLint baseado na rocketseat
 
 ## Whats included?
 
@@ -9,18 +9,18 @@
 - Prettier;
 
 ## Setup
+Install dependencies:
+```
+npm i -D eslint @carlosallberto/eslint-config
+```
 
 ### React (with Next.js)
 
-Install dependencies:
-```
-npm i -D eslint eslint-config-carlosallberto
-```
 Inside `.eslintrc.json`
 ```
 {
   "extends": [
-    "eslint-config-carlosallberto/next", 
+    "@carlosallberto/eslint-config/next", 
     "next/core-web-vitals"
   ]
 }
@@ -28,26 +28,18 @@ Inside `.eslintrc.json`
 
 ### React (without Next.js)
 
-Install dependencies:
-```
-npm i -D eslint eslint-config-carlosallberto
-```
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "eslint-config-carlosallberto/react"
+  "extends": "@carlosallberto/eslint-config/react"
 }
 ```
 
 ### Node.js
 
-Install dependencies:
-```
-npm i -D eslint eslint-config-carlosallberto
-```
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "eslint-config-carlosallberto/node"
+  "extends": "@carlosallberto/eslint-config/node"
 }
 ```

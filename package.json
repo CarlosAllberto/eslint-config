@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-carlosallberto",
-  "version": "1.0.2",
-  "description": "...",
+  "name": "@carlosallberto/eslint-config",
+  "version": "1.0.0",
+  "description": "configuração eslint baseado na rocketseat",
   "main": "none",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
